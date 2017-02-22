@@ -12,5 +12,8 @@ clone, then:
 * `virtualenv --python=python2.7 venv`
 * source venv/bin/activate
 
+#### Deploy dev
+`serverless deploy`
 
-
+#### Deploy prod
+`serverless deploy --stage prod`
